@@ -39,6 +39,7 @@ export default {
               console.log(err)
             }
         },
+
       async logout () {
           console.log('logout')
           await this.$axios.$post('/api/logout')
